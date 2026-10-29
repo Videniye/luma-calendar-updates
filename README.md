@@ -5,16 +5,34 @@ Android. The application source is maintained separately.
 
 ## Download and update
 
-The current release is **Luma Calendar 0.4.0, build 2000015**.
-[Download the APK](https://github.com/Videniye/luma-calendar-updates/releases/download/dev-2000015/Luma-Calendar-0.4.0-2000015-arm64.apk) or open the [latest release](https://github.com/Videniye/luma-calendar-updates/releases/latest).
-The app requires an ARM64 device running Android 8.0 or later.
+The current release is **Luma Calendar 0.4.1, build 2000018**.
+[Download the APK](https://github.com/Videniye/luma-calendar-updates/releases/download/dev-2000018/Luma-Calendar-0.4.1-2000018-arm64.apk)
+or open the [latest release](https://github.com/Videniye/luma-calendar-updates/releases/latest).
+The app requires an **ARM64 device running Android 8.0 or later**.
 
-Version 0.4.0 adds optional ringing alarms for calendar events, Stop and Snooze
-controls, an individual phone Clock alarm option, and a fixed phone-calendar
-handoff. Enable an alarm in an event's **Edit details** and review **Alarm setup**.
+## What's new in 0.4.1
 
-Install the APK over your existing app. Do not uninstall Luma to update it:
-uninstalling removes its local calendar and settings.
+Customize Luma's ringing alarms with a phone alarm sound or your own audio
+file, a background photo or color, photo dimming, and center/top/bottom photo
+framing. Preview the sound or alarm screen before saving.
+
+- **Settings → Alarm sound & appearance** chooses shared defaults.
+- A saved event's **Edit details → Event alarm sound & appearance** can use
+  its own sound and background or continue following the shared defaults.
+
+The appearance screen keeps changes as drafts until Save. Event appearance
+saves separately from the event details and applies to that saved occurrence.
+Stop and ten-minute Snooze remain available on the ringing alarm screen.
+
+Selected audio and photos are copied into Luma's private phone storage. These
+media files and appearance preferences are device-local and are excluded from
+calendar backups. If a selected file becomes unavailable, the alarm falls back
+to the default phone sound or the selected background color.
+
+## Install and receive future updates
+
+Install the APK over your existing Luma app to preserve its local calendar and
+settings.
 
 Luma checks for updates when opened. You can also use **Settings → Check for
 updates**. Choose **Download update**, allow installation from Luma if Android
@@ -22,7 +40,7 @@ requests it, and approve Android's installation dialog.
 
 Each release contains the signed APK, `update.json`, and `SHA256SUMS.txt`. These
 are development builds and may contain unfinished features. APK downloads are
-public. No user calendar data, API keys, signing keys, or private build logs
-belong in this repository.
+public. User calendar data, API keys, signing keys, and private build logs are
+not distributed in this repository.
 
 [Public update feed](https://github.com/Videniye/luma-calendar-updates/releases/latest/download/update.json)
