@@ -1,26 +1,28 @@
 # Luma Calendar development updates
 
-This repository distributes development builds of Luma Calendar for Android.
-The application source is maintained separately.
+This repository distributes signed development builds of Luma Calendar for
+Android. The application source is maintained separately.
 
 ## Download and update
 
-[Download the latest release](https://github.com/Videniye/luma-calendar-updates/releases/latest)
-and choose its APK. The app requires an ARM64 device running Android 8.0 or later.
+The current release is **Luma Calendar 0.4.0, build 2000015**.
+[Download the APK](https://github.com/Videniye/luma-calendar-updates/releases/download/dev-2000015/Luma-Calendar-0.4.0-2000015-arm64.apk) or open the [latest release](https://github.com/Videniye/luma-calendar-updates/releases/latest).
+The app requires an ARM64 device running Android 8.0 or later.
 
-The first updater-enabled release is version **0.3.4**, build **2000012**:
-[download the APK](https://github.com/Videniye/luma-calendar-updates/releases/download/dev-2000012/Luma-Calendar-0.3.4-2000012-arm64.apk).
+Version 0.4.0 adds optional ringing alarms for calendar events, Stop and Snooze
+controls, an individual phone Clock alarm option, and a fixed phone-calendar
+handoff. Enable an alarm in an event's **Edit details** and review **Alarm setup**.
 
-Install this APK over your existing app once. Do not uninstall Luma to update
-it: uninstalling removes its local calendar and settings.
+Install the APK over your existing app. Do not uninstall Luma to update it:
+uninstalling removes its local calendar and settings.
 
-After installing an updater-enabled build, Luma checks for updates when opened.
-You can also open **Settings → Check for updates**. Choose **Download update**,
-allow installation from Luma if Android requests it, and approve Android's
-installation dialog. Updates require installation confirmation.
+Luma checks for updates when opened. You can also use **Settings → Check for
+updates**. Choose **Download update**, allow installation from Luma if Android
+requests it, and approve Android's installation dialog.
 
-Each release contains the signed APK, update.json, and SHA256SUMS.txt. These are
-development builds and may contain unfinished features. APK downloads are public.
-No user calendar data, API keys, signing keys, or private build logs belong here.
+Each release contains the signed APK, `update.json`, and `SHA256SUMS.txt`. These
+are development builds and may contain unfinished features. APK downloads are
+public. No user calendar data, API keys, signing keys, or private build logs
+belong in this repository.
 
 [Public update feed](https://github.com/Videniye/luma-calendar-updates/releases/latest/download/update.json)
