@@ -5,12 +5,28 @@ Android. The application source is maintained separately.
 
 ## Download and update
 
-The current release is **Luma Calendar 0.4.1, build 2000018**.
-[Download the APK](https://github.com/Videniye/luma-calendar-updates/releases/download/dev-2000018/Luma-Calendar-0.4.1-2000018-arm64.apk)
+The current release is **Luma Calendar 0.4.2, build 2000020**.
+[Download the APK](https://github.com/Videniye/luma-calendar-updates/releases/download/dev-2000020/Luma-Calendar-0.4.2-2000020-arm64.apk)
 or open the [latest release](https://github.com/Videniye/luma-calendar-updates/releases/latest).
 The app requires an **ARM64 device running Android 8.0 or later**.
 
-## What's new in 0.4.1
+## What's new in 0.4.2
+
+Android paste handling now keeps copied text in the intended field when a
+keyboard sends line breaks or tabs before the text itself. Single-line fields
+turn line breaks into spaces; notes keep their line breaks and tabs.
+
+Hold a text field to open Paste and Select All. Selecting text also provides
+Cut, Copy, and Paste controls. In Settings, the API-key field now has a
+**Paste from clipboard** button that replaces the current key and uses Luma's
+automatic encrypted save. An empty or unavailable clipboard leaves the
+existing field unchanged.
+
+The changes were checked on a Galaxy Z Fold 7 running Android 16 with Samsung
+Keyboard, using synthetic text. The other phone from the original report was
+not available, so confirmation on that affected model remains pending.
+
+## Alarm customization from 0.4.1
 
 Customize Luma's ringing alarms with a phone alarm sound or your own audio
 file, a background photo or color, photo dimming, and center/top/bottom photo
@@ -31,8 +47,8 @@ to the default phone sound or the selected background color.
 
 ## Install and receive future updates
 
-Install the APK over your existing Luma app to preserve its local calendar and
-settings.
+Install the APK over your existing Luma app to preserve its local calendar,
+encrypted key settings, and saved alarm sound/background choices.
 
 Luma checks for updates when opened. You can also use **Settings → Check for
 updates**. Choose **Download update**, allow installation from Luma if Android
