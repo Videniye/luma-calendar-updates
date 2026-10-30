@@ -3,23 +3,28 @@
 This repository distributes signed development builds of Luma Calendar for
 Android. The application source is maintained separately.
 
-> **Installation warning for 0.4.2, build 2000020:** Google Play Protect blocked
+> **0.4.2, build 2000020 is held as a prerelease:** Google Play Protect blocked
 > the normal in-app update on the test phone with **“Harmful app blocked”** and
 > **“This app tries to bypass Android’s security protections.”** The cause is
-> undetermined. No bypass was attempted; the phone remains on the tested
-> candidate build 2000019. Build 2000020 is not approved for routine installation
-> while this is investigated. Package, checksum, signature, and alignment checks
-> passed, but these artifact checks do not establish malware safety or resolve
-> the Play Protect warning.
+> undetermined. No bypass was attempted; the phone remains on tested candidate
+> build 2000019. The [held build 2000020 release](https://github.com/Videniye/luma-calendar-updates/releases/tag/dev-2000020)
+> records the investigation status and is not approved for routine installation.
+> The latest regular release and update feed serve **0.4.1, build 2000018**;
+> the updater does not downgrade the installed candidate. Package, checksum,
+> signature, and alignment checks passed for build 2000020, but these artifact
+> checks do not establish malware safety or resolve the Play Protect warning.
 
 ## Download and update
 
-The current release is **Luma Calendar 0.4.2, build 2000020**.
-[Download the APK](https://github.com/Videniye/luma-calendar-updates/releases/download/dev-2000020/Luma-Calendar-0.4.2-2000020-arm64.apk)
+The latest regular release is **Luma Calendar 0.4.1, build 2000018**.
+[Download the APK](https://github.com/Videniye/luma-calendar-updates/releases/download/dev-2000018/Luma-Calendar-0.4.1-2000018-arm64.apk)
 or open the [latest release](https://github.com/Videniye/luma-calendar-updates/releases/latest).
 The app requires an **ARM64 device running Android 8.0 or later**.
 
-## What's new in 0.4.2
+## Text-entry changes in the 0.4.2 candidate
+
+These changes were checked in candidate build 2000019. Public build 2000020 is
+held as a prerelease and is excluded from the regular update feed.
 
 Android paste handling now keeps copied text in the intended field when a
 keyboard sends line breaks or tabs before the text itself. Single-line fields
@@ -56,9 +61,9 @@ to the default phone sound or the selected background color.
 
 ## Install and receive future updates
 
-The installation warning above applies to build 2000020. It is not approved for
-routine installation; the following describes the normal update process and
-does not override Play Protect's block.
+The following describes the regular update process, currently serving build
+2000018. Build 2000020 remains held as a prerelease; its Play Protect warning
+is unresolved. Installed candidate build 2000019 is not offered a downgrade.
 
 Install the APK over your existing Luma app to preserve its local calendar,
 encrypted key settings, and saved alarm sound/background choices.
