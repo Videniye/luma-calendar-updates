@@ -3,6 +3,15 @@
 This repository distributes signed development builds of Luma Calendar for
 Android. The application source is maintained separately.
 
+> **Installation warning for 0.4.2, build 2000020:** Google Play Protect blocked
+> the normal in-app update on the test phone with **“Harmful app blocked”** and
+> **“This app tries to bypass Android’s security protections.”** The cause is
+> undetermined. No bypass was attempted; the phone remains on the tested
+> candidate build 2000019. Build 2000020 is not approved for routine installation
+> while this is investigated. Package, checksum, signature, and alignment checks
+> passed, but these artifact checks do not establish malware safety or resolve
+> the Play Protect warning.
+
 ## Download and update
 
 The current release is **Luma Calendar 0.4.2, build 2000020**.
@@ -46,6 +55,10 @@ calendar backups. If a selected file becomes unavailable, the alarm falls back
 to the default phone sound or the selected background color.
 
 ## Install and receive future updates
+
+The installation warning above applies to build 2000020. It is not approved for
+routine installation; the following describes the normal update process and
+does not override Play Protect's block.
 
 Install the APK over your existing Luma app to preserve its local calendar,
 encrypted key settings, and saved alarm sound/background choices.
